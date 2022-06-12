@@ -3,6 +3,7 @@
     <div>
       <img src="@/assets/logo.png" alt="">
     </div>
+    <h1>Hello</h1>
     <div id="nav">
       <router-link to="/">Index</router-link> |
       <router-link to="/blog">Blog</router-link> |
@@ -14,7 +15,7 @@
   </div>
 </template>
 <script>
-import Layout from './components/Layout.vue'
+// import Layout from './components/Layout.vue'
 export default {
   components: {
     // Layout
