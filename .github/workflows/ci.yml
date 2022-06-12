@@ -39,6 +39,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: dist
-        BUILD_SCRIPT: npm ci && npm run build
+        branch: gh-pages
+        folder: dist
+        run: |
+          npm ci
+          npm run build
