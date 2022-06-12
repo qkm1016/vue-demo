@@ -1,4 +1,4 @@
-# 01-vue-router-basic-usage
+# vue-demo
 
 ## Project setup
 ```
